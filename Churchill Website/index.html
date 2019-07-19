@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html class="background">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Churchill House</title>
+	</head>
+
+<body>
+	<nav>
+
+		<p class="title titleLink"> <a href="index.html" class="a slant">Churchill House</a></p>
+
+		<div class="nav">
+			<a href="navigation.html">
+				<div class="hamburger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+			</a>
+
+
+			<!-- please note in "CSS 5:Styling Navigation" it stated "All navigation must be within a <ul> tag".
+				I was confused as ul is the parent of li which means each nav item should be in li which 
+				is in one big ul element. I followed exactly what the github suggested and made "All navigation" with the ul -->
+
+
+			<ul class="links">
+				<ul><a class="slant" href="description.html">Description</a></ul>
+				<ul><a class="slant" href="history.html">History</a></ul>
+				<ul><a class="slant" href="r.boyd.html">R.Boyd</a></ul>
+				<ul><a class="slant" href="gallery.html">Gallery</a></ul>
+				<ul><a class="slant" href="contact.html">Contact</a></ul>
+			</ul>
+		</div>
+	</nav>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+	<section class="content">
+	
+	<br>
+	<p class="paragraph">Churchill House, at 216 Northbourne Avenue in Braddon, was designed by Robin Boyd for the Winston Churchill Memorial Trust of Australia in 1969-70, and construction was completed in 1971. It was Boyd’s last major commission, and he died prior to its completion. It is one of a small number of larger designs produced by Boyd and was Canberra’s first brutalist building.</p>
+	<p class="paragraph">Several components make up the complex. The main building, with east and south wings; the separate north wing or pavilion; the central pool and a rear carpark. The main building forms an L shape and with the north wing it encloses a courtyard with a large ornamental pool. The main building is three storeys high with a four storey lift tower at the southeast corner. The north wing and the carpark are two storeyed.</p>
+	<p class="paragraph">Although it has undergone some alterations over the years, the building still displays key features of the brutalist style with its large areas of blank wall and use off-form concrete, sloping structural fins and precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House displays a fairly restrained form in comparison with the major Canberra buildings that followed in this style: Cameron Offices, National Gallery of Australia and High Court of Australia.</p>
+
+
+	<div class="slideShow center">
+
+		<div class="slides">
+
+			<input type="radio" name="r" id="r1" checked>
+			<input type="radio" name="r" id="r2">
+			<input type="radio" name="r" id="r3">
+			<input type="radio" name="r" id="r4">
+			<input type="radio" name="r" id="r5">
+
+			<div class="slide s1">
+				<img src="img/1.jpg" alt="Churchill House exterior (photo Ben Ennis Butler)">
+			</div>
+			<div class="slide">
+				<img src="img/2.jpg" alt="NCDC Plan for Northbourne Ave">
+			</div>
+			<div class="slide">
+				<img src="img/3.jpg" alt="Open Systems House (former Churchill House) model showing gallery c.1970. (The Canberra Times 20 April 1970 p3)">
+			</div>
+			<div class="slide">
+				<img src="img/4.jpg" alt="Boyd’s original drawings of Churchill House – first floor plan (courtesy of Ann Cleary)">
+			</div>
+			<div class="slide">
+				<img src="img/5.jpg" alt="extra1-churchill house by robin boyd photo copyright darren bradley">
+			</div>
+
+		</div>
+
+		<div class="slideNav">
+			<label for="r1" class="slideSquare"></label>
+			<label for="r2" class="slideSquare"></label>
+			<label for="r3" class="slideSquare"></label>
+			<label for="r4" class="slideSquare"></label>
+			<label for="r5" class="slideSquare"></label>
+		</div>
+	</div>
+
+	</section>
+
+	<footer class="footer">
+		<p>This website was produced by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
+	</footer>
+
+</body>
+
+</html>
